@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#this is shell scripting for our project  before we dockerized
 DATETIME=$(date +%d-%m-%y-%T)
 mkdir -p /home/ubuntu/backup/$DATETIME
 cd /home/ubuntu/ver_dev
